@@ -38,12 +38,10 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="505" max="-2" attributes="0"/>
                   <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
-                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="291" max="32767" attributes="0"/>
+                  <EmptySpace pref="513" max="32767" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
@@ -56,18 +54,15 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="458" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="459" max="32767" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jTextArea1" min="-2" pref="120" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="600" max="32767" attributes="0"/>
+                      <Component id="jTextArea1" min="-2" pref="144" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="576" max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -86,7 +81,7 @@
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="6"/>
             <Property name="tabSize" type="int" value="6"/>
-            <Property name="text" type="java.lang.String" value="D&#x17c;imi oraz Masny Ben udaj&#x105; si&#x119; na p&#xf3;&#x142;noc w poszukiwaniu ocala&#x142;ych. Podczas przemierzania lasu&#xa;Ben us&#x142;ysza&#x142; krzyk wo&#x142;aj&#x105;cego o pomoc faceta. Ben zaproponowa&#x142; D&#x17c;imiemu aby sprawdzi&#x107; sk&#x105;d&#xa;nadchodzi&#x142; ten krzyk. D&#x17c;imi po kr&#xf3;tkiej chwili zastanowienia uzna&#x142;, &#x17c;e..."/>
+            <Property name="text" type="java.lang.String" value="W po&#x142;owie drogi do miasta ch&#x142;opcy s&#x142;ysz&#x105; z oddali darcie si&#x119; m&#x119;&#x17c;czyzny a po chwili czuj&#x105; pot&#x119;&#x17c;ne &#xa;wstrz&#x105;sy wywo&#x142;ane szar&#x17c;&#x105; ogromnego Hog Ridera, kt&#xf3;ry uderzeniem swojego m&#x142;ota roznosi ich w &#xa;drobny mak. Wtedy D&#x17c;imi si&#x119; budzi krzycz&#x105;c w niebog&#x142;osy."/>
             <Property name="wrapStyleWord" type="boolean" value="true"/>
             <Property name="autoscrolls" type="boolean" value="false"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -109,18 +104,10 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Trzeba p&#xf3;j&#x15b;&#x107; sprawdzi&#x107;"/>
+            <Property name="text" type="java.lang.String" value="Zako&#x144;cz"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Nie maj&#x105; na to czasu"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

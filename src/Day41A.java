@@ -1,20 +1,24 @@
 
 import java.awt.Color;
-import java.util.HashSet;
-import javax.swing.JTextArea;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
 /**
  *
  * @author Bastek
  */
-public class Day0 extends javax.swing.JFrame {
+public class Day41A extends javax.swing.JFrame {
 
     /**
-     * Creates new form Day0
+     * Creates new form Day1
      */
-    public Day0() {
+    public Day41A() {
         initComponents();
-        jTextArea1.setBackground(new Color(0,0,0,0)); //        MIKI TAK SIE ROBI PRZEZROCZYSTE TLO!!!
+        jTextArea1.setBackground(new Color(0,0,0,0));
     }
 
     /**
@@ -28,17 +32,11 @@ public class Day0 extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jTextArea1 = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(1080, 720));
         setMinimumSize(new java.awt.Dimension(1080, 720));
-        setPreferredSize(new java.awt.Dimension(1080, 720));
         getContentPane().setLayout(null);
-
-        jPanel1.setMaximumSize(new java.awt.Dimension(1080, 720));
-        jPanel1.setMinimumSize(new java.awt.Dimension(1080, 720));
-        jPanel1.setPreferredSize(new java.awt.Dimension(1080, 720));
 
         jTextArea1.setBackground(new java.awt.Color(153, 153, 153));
         jTextArea1.setColumns(20);
@@ -46,7 +44,7 @@ public class Day0 extends javax.swing.JFrame {
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(6);
         jTextArea1.setTabSize(6);
-        jTextArea1.setText("                                                                       PROLOG\n\n Jest rok 2046 Rosja pokłóciła się ze Stanami Zjednoczonymi. Powodem ich sporu były braki w                surowcach ze strony Stanów oraz niechęć współpracy ze strony Rosji. Prezydent postanowił pokazać,\n że nie warto im odmawiać i postanowił wystrzelić w stronę Rosji kilka pocisków nuklearnych. Rosja         spodziewała się takiego ruchu ze strony Stanów i włączyła barierę która \"obroniła\" ich przed prawie       wszystkimi pociskami. Nieliczne pociski przedostały się do Rosji, a cała reszta zostala rozrzucona po       całym globie.\n Pociski oprócz ogromnych zniszczeń spowodowały też rozpowszechnienie się toksyn przez które             wymarło 99% ludzkości, a pozostały procent skryło się w bunkrach, jaskiniach, górach i rozpoczęło         walkę o przetrwanie. \n Dzień ten nazywamy dniem 0...");
+        jTextArea1.setText("Po tygodniu wędrówki chłopiec natrafia na grupę wyznawców Dżej Piego!? Dżimi jest w totalnym \nszoku widząc swojego idola na tronie z kości i czaszek innych webmasterów. Chłopiec przypomina \nsobie, że Dżej Pi został przecież przysypany głazami. Dżimi nie wiedząc co się dzieje podchodzi bliżej\naby przyjrzeć się sytuacji. W tym czasie wszechmogący webmaster zauważa chłopca i każe mu\npodejść. Dżimi prowadzi krótką konwersację po której Dżej Pi zauważa wielki talent w chłopcu i \nprzekazuje mu część swojej programistycznej wiedzy. Dżimi słyszy przeraźliwy dźwięk i okazuje się,\nże to budzik a Chłopiec tak naprawdę spał.");
         jTextArea1.setWrapStyleWord(true);
         jTextArea1.setAutoscrolls(false);
         jTextArea1.setBorder(null);
@@ -56,10 +54,10 @@ public class Day0 extends javax.swing.JFrame {
         jTextArea1.setMinimumSize(new java.awt.Dimension(1080, 720));
         jTextArea1.setPreferredSize(new java.awt.Dimension(1080, 720));
 
-        jButton1.setText("Dalej");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jButton2.setText("Zakończ");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                goToDay1(evt);
+                jButton2ActionPerformed(evt);
             }
         });
 
@@ -68,21 +66,21 @@ public class Day0 extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jTextArea1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jTextArea1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(493, 493, 493)
-                .addComponent(jButton1)
+                .addGap(475, 475, 475)
+                .addComponent(jButton2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addComponent(jTextArea1, javax.swing.GroupLayout.PREFERRED_SIZE, 401, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(94, 94, 94)
-                .addComponent(jButton1)
-                .addContainerGap(203, Short.MAX_VALUE))
+                .addComponent(jTextArea1, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(163, 163, 163)
+                .addComponent(jButton2)
+                .addContainerGap(287, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1);
@@ -91,10 +89,10 @@ public class Day0 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void goToDay1(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goToDay1
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         this.dispose();
-        new Day01().setVisible(true);
-    }//GEN-LAST:event_goToDay1
+//        new Day112().setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -113,27 +111,26 @@ public class Day0 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Day0.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Day01.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Day0.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Day01.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Day0.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Day01.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Day0.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Day01.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Day0().setVisible(true);
-              
+                new Day01().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables

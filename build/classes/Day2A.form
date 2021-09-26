@@ -31,25 +31,23 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="-1" height="-1"/>
+          <AbsoluteConstraints x="0" y="0" width="1080" height="720"/>
         </Constraint>
       </Constraints>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="506" max="-2" attributes="0"/>
                   <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
-                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="291" max="32767" attributes="0"/>
+                  <EmptySpace pref="501" max="32767" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextArea1" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTextArea1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -57,17 +55,14 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="458" max="32767" attributes="0"/>
+                  <EmptySpace pref="402" max="32767" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="296" max="-2" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jTextArea1" min="-2" pref="120" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="600" max="32767" attributes="0"/>
+                      <Component id="jTextArea1" min="-2" pref="240" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="480" max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -86,7 +81,7 @@
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="6"/>
             <Property name="tabSize" type="int" value="6"/>
-            <Property name="text" type="java.lang.String" value="D&#x17c;imi oraz Masny Ben udaj&#x105; si&#x119; na p&#xf3;&#x142;noc w poszukiwaniu ocala&#x142;ych. Podczas przemierzania lasu&#xa;Ben us&#x142;ysza&#x142; krzyk wo&#x142;aj&#x105;cego o pomoc faceta. Ben zaproponowa&#x142; D&#x17c;imiemu aby sprawdzi&#x107; sk&#x105;d&#xa;nadchodzi&#x142; ten krzyk. D&#x17c;imi po kr&#xf3;tkiej chwili zastanowienia uzna&#x142;, &#x17c;e..."/>
+            <Property name="text" type="java.lang.String" value="Po naprawd&#x119; wyczerpuj&#x105;cym biegu D&#x17c;imi zauwa&#x17c;a, &#x17c;e nied&#x17a;wied&#x17a; ju&#x17c; go nie goni. I postanawia &#xa;zrobi&#x107; chwil&#x119; przerwy. Niestety gryz&#x105; ogromne wyrzuty sumienia, zaczyna martwi&#x107; si&#x119; o przyjaciela. Niestety nie jest w stanie wr&#xf3;ci&#x107; i sprawdzi&#x107; co u niego gdy&#x17c; ogarn&#x105;&#x142; go pot&#x119;&#x17c;ny strach. D&#x17c;imi postanawia kontynuowa&#x107; podr&#xf3;&#x17c;. Udaje si&#x119; do najbli&#x17c;szego miasteczka w poszukiwaniu pomocy.&#xa;Gdy ju&#x17c; dociera na miejsce zastaje miasto w ruinach, wszystko zosta&#x142;o doszcz&#x119;tnie zniszczone. &#xa;Wtedy przypomnina sobie o rodzinie, kt&#xf3;ra zosta&#x142;a w domu i postanawia obmy&#x15b;li&#x107; plan ich ratunku. Nagle s&#x142;yszy rozmow&#x119; grupy os&#xf3;b i postanawia si&#x119; do nich uda&#x107;..."/>
             <Property name="wrapStyleWord" type="boolean" value="true"/>
             <Property name="autoscrolls" type="boolean" value="false"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -109,18 +104,10 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Trzeba p&#xf3;j&#x15b;&#x107; sprawdzi&#x107;"/>
+            <Property name="text" type="java.lang.String" value="Kontynuuj"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Nie maj&#x105; na to czasu"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

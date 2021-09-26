@@ -38,25 +38,37 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jTextArea1" max="32767" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="495" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
                   <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="291" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTextArea1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <Component id="jTextArea1" min="-2" pref="368" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
-                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="244" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="458" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jTextArea1" min="-2" pref="120" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="600" max="32767" attributes="0"/>
+                  </Group>
               </Group>
           </Group>
         </DimensionLayout>
@@ -74,7 +86,7 @@
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="6"/>
             <Property name="tabSize" type="int" value="6"/>
-            <Property name="text" type="java.lang.String" value="**Wpis z pami&#x119;tnika**                                                                                              Sierpie&#x144; 2046r.&#xa;&#xa;Nazywam si&#x119; D&#x17c;imi Hendrix, niedawno sko&#x144;czy&#x142;em 16 lat. Moja rodzina zgin&#x119;&#x142;a podczas ataku&#xa;nuklearnego. Uda&#x142;o mi si&#x119; przetrwa&#x107; gdy&#x17c; w chwili wybuchu wraz z moj&#x105; klas&#x105; byli&#x15b;my na wycieczce&#xa;w okolicznych jaskiniach. Si&#x142;a ra&#x17c;enia by&#x142;a tak ogromna, &#x17c;e wej&#x15b;cie do jaskini i cz&#x119;&#x15b;&#x107; jej wn&#x119;trza &#xa;gwa&#x142;townie si&#x119; zawali&#x142;o odcinaj&#x105;c nam drog&#x119; ucieczki. Prawie wszyscy uczestnicy wycieczki wraz z &#xa;nauczycielem (D&#x17c;ej Pim) zostali przysypani ska&#x142;ami. Ja wraz z przyjacielem tzw. Masnym Benem&#xa;uciekli&#x15b;my dlatego, &#x17c;e Ben utorowa&#x142; nam drog&#x119; do wyj&#x15b;cia swoim POT&#x118;&#x17b;NYM BRZUCHEM.&#xa;&#xa;&#xa;//Walka o przetrwanie D&#x17c;imiego w&#x142;a&#x15b;nie si&#x119; rozpocz&#x119;&#x142;a..."/>
+            <Property name="text" type="java.lang.String" value="D&#x17c;imi oraz Masny Ben udaj&#x105; si&#x119; na p&#xf3;&#x142;noc w poszukiwaniu ocala&#x142;ych. Podczas przemierzania lasu&#xa;Ben us&#x142;ysza&#x142; krzyk wo&#x142;aj&#x105;cego o pomoc faceta. Ben zaproponowa&#x142; D&#x17c;imiemu aby sprawdzi&#x107; sk&#x105;d&#xa;nadchodzi&#x142; ten krzyk. D&#x17c;imi po kr&#xf3;tkiej chwili zastanowienia uzna&#x142;, &#x17c;e..."/>
             <Property name="wrapStyleWord" type="boolean" value="true"/>
             <Property name="autoscrolls" type="boolean" value="false"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -97,10 +109,18 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Kontynuuj"/>
+            <Property name="text" type="java.lang.String" value="Trzeba p&#xf3;j&#x15b;&#x107; sprawdzi&#x107;"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nie maj&#x105; na to czasu"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

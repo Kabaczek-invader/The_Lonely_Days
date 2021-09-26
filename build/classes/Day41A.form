@@ -31,44 +31,32 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="-1" height="-1"/>
+          <AbsoluteConstraints x="0" y="0" width="1080" height="-1"/>
         </Constraint>
       </Constraints>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
-                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
-                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="291" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTextArea1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
-              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextArea1" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="475" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="458" max="32767" attributes="0"/>
-              </Group>
-              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jTextArea1" min="-2" pref="120" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="600" max="32767" attributes="0"/>
-                  </Group>
+                  <Component id="jTextArea1" min="-2" pref="248" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="287" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -86,7 +74,7 @@
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="6"/>
             <Property name="tabSize" type="int" value="6"/>
-            <Property name="text" type="java.lang.String" value="D&#x17c;imi oraz Masny Ben udaj&#x105; si&#x119; na p&#xf3;&#x142;noc w poszukiwaniu ocala&#x142;ych. Podczas przemierzania lasu&#xa;Ben us&#x142;ysza&#x142; krzyk wo&#x142;aj&#x105;cego o pomoc faceta. Ben zaproponowa&#x142; D&#x17c;imiemu aby sprawdzi&#x107; sk&#x105;d&#xa;nadchodzi&#x142; ten krzyk. D&#x17c;imi po kr&#xf3;tkiej chwili zastanowienia uzna&#x142;, &#x17c;e..."/>
+            <Property name="text" type="java.lang.String" value="Po tygodniu w&#x119;dr&#xf3;wki ch&#x142;opiec natrafia na grup&#x119; wyznawc&#xf3;w D&#x17c;ej Piego!? D&#x17c;imi jest w totalnym &#xa;szoku widz&#x105;c swojego idola na tronie z ko&#x15b;ci i czaszek innych webmaster&#xf3;w. Ch&#x142;opiec przypomina &#xa;sobie, &#x17c;e D&#x17c;ej Pi zosta&#x142; przecie&#x17c; przysypany g&#x142;azami. D&#x17c;imi nie wiedz&#x105;c co si&#x119; dzieje podchodzi bli&#x17c;ej&#xa;aby przyjrze&#x107; si&#x119; sytuacji. W tym czasie wszechmog&#x105;cy webmaster zauwa&#x17c;a ch&#x142;opca i ka&#x17c;e mu&#xa;podej&#x15b;&#x107;. D&#x17c;imi prowadzi kr&#xf3;tk&#x105; konwersacj&#x119; po kt&#xf3;rej D&#x17c;ej Pi zauwa&#x17c;a wielki talent w ch&#x142;opcu i &#xa;przekazuje mu cz&#x119;&#x15b;&#x107; swojej programistycznej wiedzy. D&#x17c;imi s&#x142;yszy przera&#x17a;liwy d&#x17a;wi&#x119;k i okazuje si&#x119;,&#xa;&#x17c;e to budzik a Ch&#x142;opiec tak naprawd&#x119; spa&#x142;."/>
             <Property name="wrapStyleWord" type="boolean" value="true"/>
             <Property name="autoscrolls" type="boolean" value="false"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -107,17 +95,9 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Trzeba p&#xf3;j&#x15b;&#x107; sprawdzi&#x107;"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
-          </Events>
-        </Component>
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Nie maj&#x105; na to czasu"/>
+            <Property name="text" type="java.lang.String" value="Zako&#x144;cz"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
