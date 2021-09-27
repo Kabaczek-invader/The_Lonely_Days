@@ -33,10 +33,13 @@ public class Day41A extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jTextArea1 = new javax.swing.JTextArea();
         jButton2 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1080, 720));
         getContentPane().setLayout(null);
+
+        jPanel1.setLayout(null);
 
         jTextArea1.setBackground(new java.awt.Color(153, 153, 153));
         jTextArea1.setColumns(20);
@@ -53,6 +56,8 @@ public class Day41A extends javax.swing.JFrame {
         jTextArea1.setMaximumSize(new java.awt.Dimension(1080, 720));
         jTextArea1.setMinimumSize(new java.awt.Dimension(1080, 720));
         jTextArea1.setPreferredSize(new java.awt.Dimension(1080, 720));
+        jPanel1.add(jTextArea1);
+        jTextArea1.setBounds(10, 0, 1080, 509);
 
         jButton2.setText("Zakończ");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -60,31 +65,16 @@ public class Day41A extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton2);
+        jButton2.setBounds(495, 588, 144, 42);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(475, 475, 475)
-                .addComponent(jButton2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addComponent(jTextArea1, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(163, 163, 163)
-                .addComponent(jButton2)
-                .addContainerGap(287, Short.MAX_VALUE))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/dzien-41a.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(0, 0, 1090, 720);
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 1080, 720);
+        jPanel1.setBounds(0, 0, 1090, 720);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -131,6 +121,7 @@ public class Day41A extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables

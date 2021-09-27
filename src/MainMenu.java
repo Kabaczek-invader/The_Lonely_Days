@@ -32,9 +32,9 @@ public class MainMenu extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         start = new javax.swing.JButton();
         end = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(1080, 720));
         setMinimumSize(new java.awt.Dimension(1080, 720));
 
         jPanel1.setMaximumSize(new java.awt.Dimension(1080, 720));
@@ -43,9 +43,13 @@ public class MainMenu extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(1080, 720));
         jPanel1.setLayout(null);
 
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("The Lonely Days");
+        jLabel1.setBorder(new javax.swing.border.MatteBorder(null));
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(500, 30, 100, 20);
+        jLabel1.setBounds(440, 50, 220, 50);
 
         jLabel2.setText("Sebastian Dawidzki");
         jPanel1.add(jLabel2);
@@ -62,7 +66,7 @@ public class MainMenu extends javax.swing.JFrame {
             }
         });
         jPanel1.add(start);
-        start.setBounds(500, 140, 72, 22);
+        start.setBounds(440, 250, 210, 40);
 
         end.setText("Wyjście");
         end.addActionListener(new java.awt.event.ActionListener() {
@@ -71,7 +75,12 @@ public class MainMenu extends javax.swing.JFrame {
             }
         });
         jPanel1.add(end);
-        end.setBounds(500, 210, 72, 22);
+        end.setBounds(440, 380, 210, 40);
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/menu.jpg"))); // NOI18N
+        jLabel5.setText("jLabel5");
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(7, -4, 1070, 720);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -136,6 +145,7 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton start;
     // End of variables declaration//GEN-END:variables

@@ -33,14 +33,19 @@ public class Day01 extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jTextArea1 = new javax.swing.JTextArea();
         jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setForeground(java.awt.Color.white);
         setMinimumSize(new java.awt.Dimension(1080, 720));
         getContentPane().setLayout(null);
 
+        jPanel1.setLayout(null);
+
         jTextArea1.setBackground(new java.awt.Color(153, 153, 153));
         jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Segoe UI", 2, 24)); // NOI18N
+        jTextArea1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(6);
         jTextArea1.setTabSize(6);
@@ -53,6 +58,8 @@ public class Day01 extends javax.swing.JFrame {
         jTextArea1.setMaximumSize(new java.awt.Dimension(1080, 720));
         jTextArea1.setMinimumSize(new java.awt.Dimension(1080, 720));
         jTextArea1.setPreferredSize(new java.awt.Dimension(1080, 720));
+        jPanel1.add(jTextArea1);
+        jTextArea1.setBounds(60, 20, 1070, 500);
 
         jButton1.setText("Kontynuuj");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -60,31 +67,16 @@ public class Day01 extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton1);
+        jButton1.setBounds(470, 590, 180, 60);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(495, 495, 495)
-                .addComponent(jButton1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addComponent(jTextArea1, javax.swing.GroupLayout.PREFERRED_SIZE, 368, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(86, 86, 86)
-                .addComponent(jButton1)
-                .addContainerGap(244, Short.MAX_VALUE))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/dzien-01.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(50, 20, 1090, 720);
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 1092, 720);
+        jPanel1.setBounds(-50, -20, 1140, 740);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -132,6 +124,7 @@ public class Day01 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
